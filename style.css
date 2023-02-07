@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ 
 }
 
 
@@ -108,8 +109,7 @@ aside{
     margin-top: 5%;
     font-family: "Poppins";
     font-weight: bold;
-    letter-spacing: 2px;
-    
+    letter-spacing: 2px;    
 
 }
 
@@ -298,7 +298,7 @@ aside{
 .Container{
     width: 100%;
     background-color: #F3EEEE;
-    padding: 50px;
+    padding: 20px;
     
 }
 
@@ -325,6 +325,7 @@ aside{
     margin-top: 15%;
     text-align: center;
     flex-wrap: wrap;
+
 }
 
 
@@ -332,7 +333,9 @@ aside{
     background-color: #FFFBFB;
     padding: 50px;
     box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
-    
+    align-items: flex-end;
+    justify-content: flex-end;
+
 }
 
 .Card img{
@@ -600,6 +603,7 @@ aside{
 /*===============Page=Projetos================*/
 
 
+
 .C-projeto{
     display:flex;
     justify-content: space-around;
@@ -615,6 +619,8 @@ aside{
     height: auto;
     box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
     padding-top: 15px;
+    align-items: flex-end;
+    padding: 60px;
     
     
 }

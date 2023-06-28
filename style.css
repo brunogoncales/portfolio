@@ -12,6 +12,42 @@
  
 }
 
+/*====================Thanks====================*/
+
+.C-thanks{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom, #00ccff 0%, #ffffcc 100%);
+}
+
+.thanks-imagem img{
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;   
+}
+.C-thanks h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "Poppins";
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.C-thanks h2{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(182, 35, 35);
+    font-family: "Hanuman";
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+
 
 /*====================Inicio====================*/
 
@@ -21,7 +57,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 50vh;
+    height: 40vh;
     width: 100%;
     
     
@@ -98,14 +134,16 @@ aside{
    display: flex;
    flex-direction: column;
    justify-content: center;
-   margin-left: 25%;
+   --margin-left: 33%;
+   text-align: center;
    flex-wrap: wrap;
+   
    
 }
 
 .main-title h1{
     font-size: 70px;
-    color: #ffffff;
+    color: #F0FFFF;    ;
     margin-top: 5%;
     font-family: "Poppins";
     font-weight: bold;
@@ -114,7 +152,7 @@ aside{
 }
 
 .main-title h2{
-    color: #dd0b0b;
+    color: rgb(182, 35, 35);
     font-size: 50px;
     font-family: "Hanuman";
     font-weight: bold;
@@ -122,8 +160,8 @@ aside{
 }
 
 .main-title h5{
-    color:#dd0b0b;
-    font-size: 15px;
+    color: rgb(182, 35, 35);
+    font-size: px;
     font-family: "Hanuman";
     letter-spacing: 2px;
     font-weight: 200;
@@ -174,14 +212,15 @@ aside{
 
     .main-title h1{
         font-size: 40px;
-        margin-top: 75%;
-        margin-right: 15%;
+        margin-top:100px;
+        --margin-right:15px
         
     }
 
     .main-title h2{
         font-size: 25px;
         margin-right: 15%;
+        margin-top: 50px;
     }
     
     .main-title button{
@@ -202,11 +241,12 @@ aside{
 .C-sobre{
     display: flex;
     justify-content: space-around;
-    padding: 150px 0px;
+    padding: 100px 0px;
     width: 100%;
     flex-wrap: wrap;
-    background-color: #a4aece;
-    
+    --background-color:#5F9EA0;
+    background: linear-gradient(to bottom, #00ccff 0%, #ffffcc 100%);
+
 
 }
 
@@ -223,6 +263,7 @@ aside{
     font-size: 55px;
     font-family: "Inter";
     font-weight: bold;
+    margin-top: 50px;
 }
 
 .Sobre-mim h4{
@@ -243,13 +284,15 @@ aside{
     margin-top: 25px;
     font-family: "Inria Sans";
 
+
+
 }
 
 .Sobre-mim button{
     background-color: rgb(49, 17, 167);
     margin-left: 30%;
     margin-top: 30px;
-    padding: 10px 50px;
+    padding: 15px 50px;
     border: none;
     font-size: 20px;
     color: rgb(232, 233, 229);
@@ -257,6 +300,7 @@ aside{
     cursor: pointer;
     box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
     transition-duration: .9s;
+    
     
 
 }
@@ -280,7 +324,7 @@ aside{
 
     .Sobre-mim p{
         font-size: 12px;
-        width: 500px;
+        width: 350px;
         padding: 15px;
         text-align: center;
     }
@@ -297,23 +341,25 @@ aside{
 
 .Container{
     width: 100%;
-    background-color: #F3EEEE;
+    --background-color: #e2e2e2;
     padding: 20px;
+    background: linear-gradient(to bottom, #0066ff 0%, #ffffcc 100%);
+
     
 }
 
 .Container h1{
     text-align: center;
-    font-size: 70px;
+    font-size: 65px;
     font-family: "Inria Sans";
     font-weight: bold;
-    padding-top: 12%;
+    padding-top: 2%;
 }
 
 .Container p{
     text-align: center;
     font-family: "Inria Sans";
-    color: #685B5B;
+    color: #020700;
     margin-top: 25px;
     
 } 
@@ -322,7 +368,7 @@ aside{
 .C-card{
     display: flex;
     justify-content: space-around;
-    margin-top: 15%;
+    margin-top: 8%;
     text-align: center;
     flex-wrap: wrap;
 
@@ -331,7 +377,7 @@ aside{
 
 .Card{
     background-color: #FFFBFB;
-    padding: 50px;
+    padding: 70px;
     box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
     align-items: flex-end;
     justify-content: flex-end;
@@ -363,7 +409,7 @@ aside{
 }
 
 .Card:hover{
-    transform: scale(1.1);
+   transform: scale(1.1);
     transition-duration: .9s;
 }
 
@@ -387,8 +433,11 @@ aside{
 
 .C-projetos{
     width: 100%;
-    background-color: #fff;
+    --background-color: #fff;
     padding: 85px;
+    background: linear-gradient(to bottom, #33ccff 0%, #666699 100%);
+    
+
 }
 
 .C-projetos h1{
@@ -396,22 +445,22 @@ aside{
     font-size: 65px;
     font-family: "Inria Sans";
     font-weight: bold;
-    padding-top: 14%;
+    padding-top: 0%;
 }
 
 .C-projetos p{
      text-align: center;
      font-family: "Inria Sans";
-     color: #685B5B;
+     color: #0c0000;
      font-weight: lighter;
-     margin-top: 8px;
+     margin-top: 10px;
 }
 
 .img-projetos{
    display: flex;
    justify-content: center;
    gap: 70px;
-   margin-top: 150px;
+   margin-top: 50px;
    flex-wrap: wrap;
 }
 
@@ -425,7 +474,7 @@ aside{
 .img-2 img{
     width: 450px;
     height: auto;
-    margin-left: 32%;
+    margin-left: 35%;
     margin-top: 35px;
     box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
     border-radius: 10px;
@@ -607,29 +656,36 @@ aside{
 .C-projeto{
     display:flex;
     justify-content: space-around;
-    padding: 150px 0px;
+    padding: 80px 0px;
     width: 100%;
     flex-wrap: wrap;
-    background-color: #a4aece;
+    background-color: #f4f4fa;
     
 }
 
 .image-projeto img{
-    width: 500px;
+    width: 370px;
     height: auto;
-    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+    --box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
     padding-top: 15px;
     align-items: flex-end;
-    padding: 60px;
-    
+    padding: 60px;  
     
 }
+
+.image-projeto:hover{
+    transform: scale(3.2);
+     transition-duration: .9s;
+ }
+ 
 
 .Sobre-projeto h1{
     text-align: center;
     font-size: 55px;
     font-family: "Inter";
     font-weight: bold;
+    margin-top: 45px;
+    
 
 }
 
@@ -644,14 +700,14 @@ aside{
 }
 
 .Sobre-projeto span{
-    color: #297999;
+    color: #a9bcc4;
 
 }
 
 .Sobre-projeto p{
     text-align: center;
-    margin-top: 25px;
     font-family: "Inria Sans";
+    margin-top: 25px;
     
 
 }
@@ -659,7 +715,7 @@ aside{
 
 .Sobre-projeto button{
     background-color: rgb(6, 2, 22);
-    margin-left: 5%;
+    margin-left: 25%;
     margin-top: 90px;
     padding: 10px 50px;
     border: none;

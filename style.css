@@ -288,11 +288,11 @@ aside{
 
 }
 
-.Sobre-mim button{
+.Sobre-mim button.linkedin{
     background-color: rgb(49, 17, 167);
-    margin-left: 30%;
+    margin-left: 35%;
     margin-top: 30px;
-    padding: 15px 50px;
+    padding: 10px 50px;
     border: none;
     font-size: 20px;
     color: rgb(232, 233, 229);
@@ -301,8 +301,21 @@ aside{
     box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
     transition-duration: .9s;
     
-    
+}
 
+.Sobre-mim button.GitHub{
+    background-color: rgb(8, 4, 22);
+    margin-left: 36%;
+    margin-top: 15px;
+    padding: 10px 50px;
+    border: none;
+    font-size: 20px;
+    color: rgb(232, 233, 229);
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+    transition-duration: .9s;
+    
 }
 
 .Sobre-mim button:hover{
